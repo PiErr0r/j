@@ -2,7 +2,7 @@
 
 ## Arrays
 
-item - part of an n-cell list whose rank i n-1 (largest part of a list)
+item - part of an n-cell list whose rank is n-1 (largest part of a list)
 
 `monad $` - shape of a list
 
@@ -31,6 +31,15 @@ item - part of an n-cell list whose rank i n-1 (largest part of a list)
 
 `i. n` - creates a list of ints from 0 to n without n
 
+you can pass a shape to `i.` monad e.g.:
+```J
+   i.2 3
+0 1 2
+3 4 5
+```
+
 `i. _n` - creates a reversed list of ints from n - 1 to 0 inclusively
 
+`#:` integer to binary list, `#.` binary list to integer
 
+`u"n` - rank conjuction: specify the rank of a verb (`v"0` 1 has monad rank 1, dyad left rank 0, and dyad right rank 1)
