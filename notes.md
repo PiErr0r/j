@@ -42,4 +42,4 @@ you can pass a shape to `i.` monad e.g.:
 
 `#:` integer to binary list, `#.` binary list to integer
 
-`u"n` - rank conjuction: specify the rank of a verb (`v"0` 1 has monad rank 1, dyad left rank 0, and dyad right rank 1)
+`u"n` - rank conjuction: specify the rank of a verb (`v"0 1` has monad rank 1, dyad left rank 0, and dyad right rank 1)
